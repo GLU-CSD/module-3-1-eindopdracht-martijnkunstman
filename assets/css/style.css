@@ -7,11 +7,23 @@ html,body{
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: lightgreen;
 }
 
 #content{
   width:800px;
-  /* margin: 0 auto; */
+}
+
+@media only screen and (max-width: 840px) {
+  body {
+    background-color: lightblue;
+  }
+  #content{
+    width:600px;
+  }
+  #sidebar{
+    display: none;
+  }
 }
 
 header{
@@ -19,7 +31,6 @@ header{
   background: grey;
 }
 main{
-
   background: yellow;
   display: flex;
   flex-direction: row;
