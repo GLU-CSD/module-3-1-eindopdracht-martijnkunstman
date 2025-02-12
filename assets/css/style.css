@@ -70,10 +70,35 @@ body {
   }
 }
 
+
+
+
 header {
-  height: 100px;
   background: grey;
+  padding: 10px;
 }
+.bovenbalk{
+  background-color: orange;
+  display:flex;
+  justify-content: space-between;
+}
+.bovenbalk .menuRight{
+  padding: 10px;
+}
+.bovenbalk .menuLeft{
+  padding: 10px;
+}
+
+
+.onderbalk{
+  background-color: pink;
+  
+}
+
+
+
+
+
 main {
   background: yellow;
   display: flex;
